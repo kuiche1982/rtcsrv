@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="demo.css">
+        <script src="demo.js"></script>
+    </head>
+    <body>
+        <div id="remoteVideos" style="background-color: yellow; float: left;"></div>
+        <br />Message<br />
+        <input id="message" type = "text" onkeyup="cmdInput(event)"> <br/>
+        <button onclick="sendMessage()">Send Message</button> <br />
+        <button onclick="fixRotation()">Fix Rotation</button> <br />
+
+        <br />
+        Logs<br />
+        <div id="logs"></div>
+    </body>
+</html>
